@@ -59,7 +59,7 @@ public class Act7_1App {
 		}
 			
 		
-		Hashtable <String, String> diccionario = new Hashtable<String, String>();
+		Hashtable <String, String> diccionario = new Hashtable<String, String>(); // no sé si tiene qué usarse
 			
 		// Calculamos la media y la incorporamos al array
 		
