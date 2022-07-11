@@ -1,5 +1,7 @@
 import java.util.ArrayList;
 
+import java.util.Hashtable;
+
 import javax.swing.JOptionPane;
 
 public class Act7_1App {
@@ -56,11 +58,16 @@ public class Act7_1App {
 			
 		}
 			
+		
+		Hashtable <String, String> diccionario = new Hashtable<String, String>();
+			
 		// Calculamos la media y la incorporamos al array
 		
 		nota_media = nota / examenes; 
 		
 		notas.add(nota_media); 
+		
+		JOptionPane.showMessageDialog(null, notas);
 		
 		}
 		
